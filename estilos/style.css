@@ -24,11 +24,17 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 }
 div#img{
+    display: block;
     background-image: url(../Imagens/imgpattern.jpg);
     height: 200px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+div#form{
+    display: block;
+    padding: 15px;
 }
