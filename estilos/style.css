@@ -18,10 +18,17 @@ main{
 }
 section#login{
     background-color: white;
-    padding: 20px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+div#img{
+    background-image: url(../Imagens/imgpattern.jpg);
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
