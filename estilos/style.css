@@ -62,24 +62,33 @@ div.enviar{
     text-align: center;
 }
 div.enviar input{
-    width: 60%;
-    border: 1px solid rgba(0, 0, 0, 0.349) ;
+    width: 100%;
+    border: 1px solid #49a09d ;
     border-radius: 15px;
-    height: 25px;
+    height: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
-    background-color: rgb(236, 169, 81);
-}
-div.enviar input:hover{
-    background-color: rgb(240, 190, 124);
+    background-color: #49a09d;
 }
 div.botao{
     text-align: center;
+    border: 1px solid #49a09d;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
 }
 div.botao a{
     text-decoration: none;
     font-size: 0.8em;
-}
+    color: #49a09d;
+}   
 div.botao a:hover{
     text-decoration: underline;
+}  
+span#emailicon{
+    color: #49a09d;
+    font-size: 16px;
+}
+span.material-symbols-outlined{
+    color: #49a09d;
 }

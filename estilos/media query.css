@@ -13,6 +13,7 @@ Grandes telas : acima de 1200px
     }
     section#telalogin{
         width: 70vw;
+        height: 320px;
     }
     div#img{
         float: left;
@@ -31,7 +32,10 @@ Grandes telas : acima de 1200px
         font-size: 1.0em;
         margin-bottom: 7px;
     }
-    
+    span#emailicon{
+        color: #49a09d;
+        font-size: 18px;
+    }
 }
 /*Desktop*/
 @media screen and (min-width:992px){
@@ -39,16 +43,17 @@ Grandes telas : acima de 1200px
         background-image: linear-gradient(to top ,#49a09d,#5f2c82);
     }
     section#telalogin{
-        width: 950px;
+        width: 930px;
+        height: 350px;
     }
     div#img{
         float: right;
-        width: 30%;
+        width: 50%;
         height: 100%;
     }
     div#formulario{
         float: left;
-        width: 70%;
+        width: 50%;
     }
     div#formulario h1{
         font-size: 2em;
@@ -59,13 +64,46 @@ Grandes telas : acima de 1200px
         font-size: 1.2em;
         margin-bottom: 10px;
     }
+    div.campo{
+        margin-bottom: 10px;
+    }
     div.campo input {
-        width: 65%; /* Fiz o input ocupar toda a largura disponível */
-        height: 20px; 
-        padding: 10px; /* Aumenta o espaçamento interno */
-        border-radius: 5px; /* Deixa os cantos arredondados */
+        width: 90%; /* Fiz o input ocupar toda a largura disponível */
+        height: 40px; 
+        padding: 10px; 
+        border-radius: 5px; 
         border: 1px solid #ccc; /* Define a borda */
         box-sizing: border-box; /* Garante que o padding não extrapole o tamanho do input */
     }
-    
+    div.enviar{
+        margin-top: 5px;
+        text-align: center;
+    }
+    div.enviar input{
+        width: 100%;
+        border: 1px solid #49a09d ;
+        border-radius: 15px;
+        height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-variant: small-caps;
+        background-color: #49a09d;
+    }
+    div.botao{
+        text-align: center;
+        border: 1px solid #49a09d;
+        margin-top: 10px;
+        border-radius: 5px;
+        height: 30px;
+    }
+    div.botao a{
+        text-decoration: none;
+        font-size: 0.8em;
+    }   
+    div.botao a:hover{
+        text-decoration: underline;
+    }
+    span#emailicon{
+        color: #49a09d;
+        font-size: 18px;
+    }
 }
