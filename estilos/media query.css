@@ -72,8 +72,8 @@ Grandes telas : acima de 1200px
         height: 40px; 
         padding: 10px; 
         border-radius: 5px; 
-        border: 1px solid #ccc; /* Define a borda */
-        box-sizing: border-box; /* Garante que o padding não extrapole o tamanho do input */
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
     }
     div.enviar{
         margin-top: 5px;

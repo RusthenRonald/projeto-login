@@ -50,11 +50,11 @@ div#formulario p{
 } 
 
 div.campo input {
-    width: 85%; /* Fiz o input ocupar toda a largura disponível */
+    width: 85%; 
     height: 20px; 
-    padding: 10px; /* Aumenta o espaçamento interno */
-    border-radius: 5px; /* Deixa os cantos arredondados */
-    border: 1px solid #ccc; /* Define a borda */
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
     box-sizing: border-box; /* Garante que o padding não extrapole o tamanho do input */
 }
 div.enviar{
