@@ -62,14 +62,11 @@ div.campo span{
     padding: 5px;
 }
 div.campo input{
-    background-color: #66dbd7;
     font-size: 1em;
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 1px;
-    width: calc(100%-44px);
-    transform: translateY(-12px);
 }
 label{
     display: none;
