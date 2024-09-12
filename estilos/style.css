@@ -46,9 +46,12 @@ div#formulario h1{
 div#formulario p{
     font-size: 0.8em;
 } 
-div.campo{
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 5px;
-    padding: 5px;
-    margin-bottom: 5px;
+
+div.campo input {
+    width: 85%; /* Fiz o input ocupar toda a largura disponível */
+    height: 20px; 
+    padding: 10px; /* Aumenta o espaçamento interno */
+    border-radius: 5px; /* Deixa os cantos arredondados */
+    border: 1px solid #ccc; /* Define a borda */
+    box-sizing: border-box; /* Garante que o padding não extrapole o tamanho do input */
 }
